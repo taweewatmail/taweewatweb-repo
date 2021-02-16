@@ -1,1 +1,1 @@
-web: npm run client-install & npm run startsrv
+web: npm run client-install & npm run startsrv & npm run server
