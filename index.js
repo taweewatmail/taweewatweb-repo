@@ -10,8 +10,8 @@ const jokeRouter = require('./routes/joke-router')
 const aboutmeRouter = require('./routes/aboutme-router')
 
 const app = express()
-const apiPort = 5000
-const port = process.env.PORT || 3000;
+//const apiPort = 3000
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
 })
 app.use('/api', jokeRouter)
 app.use('/apiaboutme', aboutmeRouter)
-app.listen(apiPort, () => console.log('Server running on port ${apiPort}'))
+//app.listen(apiPort, () => console.log('Server running on port ${apiPort}'))
 // Passport middleware
 app.use(passport.initialize());
 // Passport config
