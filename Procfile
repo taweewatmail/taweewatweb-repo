@@ -1,1 +1,1 @@
-web npm start
+web: node index.js & nodemon index.js & node ./client/index.js
