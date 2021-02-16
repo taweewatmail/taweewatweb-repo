@@ -1,1 +1,1 @@
-web: node index.js & nodemon index.js & node ./client/index.js
+web: $ heroku run npm run start
