@@ -1,1 +1,1 @@
-web: npm install --prefix client & node index.js & concurrently npm run nodemon index.js npm run npm start --prefix ./client
+web: nodemon index.js
