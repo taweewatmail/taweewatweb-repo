@@ -10,8 +10,8 @@ const jokeRouter = require('./routes/joke-router')
 const aboutmeRouter = require('./routes/aboutme-router')
 
 const app = express()
-const apiPort = 3000
-const port = process.env.PORT || 3001;
+const apiPort = 5000
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
