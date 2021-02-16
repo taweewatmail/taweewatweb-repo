@@ -9,7 +9,8 @@
     "startsrv": "node index.js",
     "server": "nodemon index.js",
     "client": "npm start --prefix ./client",
-    "start": "concurrently \"npm run server\" \"npm run client\""
+    "install": "(cd client && yarn) && (cd server && yarn)",
+    "start": "concurrently \"cd client && PORT=3000 yarn start\" \"cd server && PORT=5000 yarn start\""
   },
   "keywords": [],
   "author": "",
