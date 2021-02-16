@@ -1,1 +1,1 @@
-web: node index.js & node ./client/index.js
+web: npm run startsrv
