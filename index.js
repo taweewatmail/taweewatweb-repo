@@ -11,7 +11,7 @@ const aboutmeRouter = require('./routes/aboutme-router')
 
 const app = express()
 const apiPort = 5000
-
+const port = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors())
 app.use(bodyParser.json())
