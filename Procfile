@@ -1,1 +1,1 @@
-web: npm run client-install & npm run concurrently \"npm run server\" \"npm run client\
+web: npm run start
