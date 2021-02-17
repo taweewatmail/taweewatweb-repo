@@ -11,7 +11,7 @@ const aboutmeRouter = require('./routes/aboutme-router')
 
 const app = express()
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 5000;
 //const apiPort = 3000
 //app.listen(apiPort, () => console.log('Server running on port ${apiPort}'))
 app.listen(port, () => {
