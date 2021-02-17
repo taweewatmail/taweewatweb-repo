@@ -9,7 +9,7 @@
     "install-client": "cd client && npm install && npm install --prefix client",
     "heroku-postbuild": "npm run install-client && npm run build",
     "start": "node index.js",
-    "client": "npm start --prefix ./client",
+    "client": "cd client && npm start --prefix",
     "dev": "concurrently -n 'server,client' -c 'red,green'  \"node index.js\" \"npm run client\""
   },
   "keywords": [],
