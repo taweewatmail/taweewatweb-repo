@@ -1,2 +1,1 @@
-$ npm start
-web: npm run dev
+web: npm run start
