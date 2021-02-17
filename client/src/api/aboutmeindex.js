@@ -3,6 +3,6 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "https://taweewat.herokuapp.com/apiaboutme",
+    baseURL: "https://bomtaweewat.herokuapp.com/apiaboutme",
     responseType: "json"
 });

@@ -1,6 +1,6 @@
 import axios from 'axios'
 const api = axios.create({
-    baseURL: 'https://taweewat.herokuapp.com/api',
+    baseURL: 'https://bomtaweewat.herokuapp.com/api',
 })
 
 export const insertJoke = payload => api.post(`/joke`, payload)
