@@ -1,6 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\api",
+    "\\config",
+    "\\controllers",
+    "\\db",
+    "\\models",
+    "\\routes",
+    "\\routes\\api"
   ],
+  "SelectedNode": "\\client\\src\\api\\aboutmeindex.js",
   "PreviewInSolutionExplorer": false
 }
