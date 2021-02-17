@@ -1,6 +1,6 @@
 import axios from 'axios'
 const api = axios.create({
-    baseURL: 'https://localhost:3000/api',
+    baseURL: 'https://localhost:3001/api',
 })
 
 export const insertJoke = payload => api.post(`/joke`, payload)
