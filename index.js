@@ -11,11 +11,9 @@ const aboutmeRouter = require('./routes/aboutme-router')
 
 const app = express()
 
-const port = process.env.PORT || 5000;
-//const apiPort = 5000
-//app.listen(apiPort, () => console.log('Server running on port ${apiPort}'))
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
-    console.log(`Example app listening at https://taweewat.herokuapp.com:${port}`)
+    console.log(`Example app listening at http://localhost:${port}`)
 })
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors())
