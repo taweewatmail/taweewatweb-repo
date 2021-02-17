@@ -21,9 +21,9 @@ var server = app.listen(PORT, function () {
     var port = server.address().port;
     console.log("server is listening at http://%s:%s", host, port);
 });
-if (process.env.NODE_ENV === 'production') {
+/*if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'));
-}
+}*/
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors())
 app.use(bodyParser.json())
