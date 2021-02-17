@@ -36,11 +36,11 @@ if (localStorage.jwtToken) {
     window.location.href = "./login";
   }
 }
-const proxy = require('http-proxy-middleware');
+/*const proxy = require('http-proxy-middleware');
 
 module.exports = function (app) {
     app.use(proxy({ target: 'https://bomtaweewat.herokuapp.com' }));
-};
+};*/
 class login extends Component {
   render() {
     return (
