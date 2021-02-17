@@ -39,7 +39,7 @@ if (localStorage.jwtToken) {
 const proxy = require('http-proxy-middleware');
 
 module.exports = function (app) {
-    app.use(proxy('/api/**', { target: 'https://bomtaweewat.herokuapp.com' }));
+    app.use(proxy({ target: 'https://bomtaweewat.herokuapp.com' }));
 };
 class login extends Component {
   render() {
