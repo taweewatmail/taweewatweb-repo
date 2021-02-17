@@ -3,6 +3,6 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "http://localhost:3001/apiaboutme",
+    baseURL: "https://limitless-falls-29739.herokuapp.com/apiaboutme",
     responseType: "json"
 });

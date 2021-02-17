@@ -1,6 +1,6 @@
 import axios from 'axios'
 const api = axios.create({
-    baseURL: 'http://localhost:3001/api',
+    baseURL: 'https://limitless-falls-29739.herokuapp.com/api',
 })
 
 export const insertJoke = payload => api.post(`/joke`, payload)
