@@ -33,8 +33,9 @@
     "vue-axios": "^3.2.2",
     "web-vitals": "^0.2.4"
   },
+  "proxy": "https://bomtaweewat.herokuapp.com",
   "scripts": {
-    "start": "set PORT=3000 && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
