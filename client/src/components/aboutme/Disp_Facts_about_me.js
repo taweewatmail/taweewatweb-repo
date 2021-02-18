@@ -55,182 +55,182 @@ class Disp_Facts_about_me extends React.Component {
                             <div className="bodynote">
                                 <h5>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             Java
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             Foxpro
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             HTML
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             NodeJs
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             React
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             Express
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             XML
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             Python
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             PHP
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
@@ -242,68 +242,68 @@ class Disp_Facts_about_me extends React.Component {
                                 <h3>Database Skills</h3>
                             </div>
                             <div className="bodynote">
-                                <h5>
+                                <h6>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             MongoDB
                                             </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             Firebase
                                             </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             MySQL
                                             </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
-                                </h5>
+                                </h6>
                             </div>
                         </div>
                         <div className="margin-5px">
@@ -311,108 +311,108 @@ class Disp_Facts_about_me extends React.Component {
                                 <h3>Tools Skills</h3>
                             </div>
                             <div className="bodynote">
-                                <h5>
+                                <h6>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             Android Studio
                                             </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             Visual Studio
                                             </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             GitHub
                                             </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             Arduino
                                             </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             AppServ
                                             </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col 2">
+                                        <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
-                                </h5>
+                                </h6>
                             </div>
                         </div>
                     </div>

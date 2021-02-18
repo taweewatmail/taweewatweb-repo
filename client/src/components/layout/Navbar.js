@@ -10,24 +10,31 @@ class Navbar extends Component {
     }
     render() {
         return (
-            <nav className="NavbarItems">
-                <h1 className="Navbar-logo">React<i className="fab fa-react"></i></h1>
-                <div className="menu-icon" onClick={this.handdleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-                </div>
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                    {MenuItems.map((item, index) => {
-                        return (
-                            <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                    {item.title}
-                                </a>
-                            </li>
-                        )
-                    })}
-                </ul>
-                
-            </nav>
+                <nav className="NavbarItems">
+
+                    <div className="row">
+                        <div className="col 3">
+                            <h1 className="Navbar-logo">Menu&nbsp;&nbsp;&nbsp;</h1>
+                        </div>
+                        <div className="col 9">
+                            <div className="menu-icon" onClick={this.handdleClick}>
+                                <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                        {MenuItems.map((item, index) => {
+                            return (
+                                <li key={index}>
+                                    <a className={item.cName} href={item.url}>
+                                        {item.title}
+                                    </a>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                </nav>
         );
     }
 }
