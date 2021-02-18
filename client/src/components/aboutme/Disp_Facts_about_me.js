@@ -55,7 +55,7 @@ class Disp_Facts_about_me extends React.Component {
                             <div className="bodynote">
                                 <h5>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             Java
                                         </div>
                                         <div className="col-2">
@@ -70,12 +70,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             Foxpro
                                         </div>
                                         <div className="col-2">
@@ -90,12 +90,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             HTML
                                         </div>
                                         <div className="col-2">
@@ -110,12 +110,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div className="level">&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             NodeJs
                                         </div>
                                         <div className="col-2">
@@ -130,12 +130,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             React
                                         </div>
                                         <div className="col-2">
@@ -150,12 +150,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             Express
                                         </div>
                                         <div className="col-2">
@@ -170,12 +170,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             XML
                                         </div>
                                         <div className="col-2">
@@ -190,12 +190,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             Python
                                         </div>
                                         <div className="col-2">
@@ -210,12 +210,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             PHP
                                         </div>
                                         <div className="col-2">
@@ -230,7 +230,7 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
@@ -244,7 +244,7 @@ class Disp_Facts_about_me extends React.Component {
                             <div className="bodynote">
                                 <h6>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             MongoDB
                                             </div>
                                         <div className="col-2">
@@ -259,12 +259,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             Firebase
                                             </div>
                                         <div className="col-2">
@@ -279,12 +279,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             MySQL
                                             </div>
                                         <div className="col-2">
@@ -299,7 +299,7 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
@@ -313,7 +313,7 @@ class Disp_Facts_about_me extends React.Component {
                             <div className="bodynote">
                                 <h6>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             Android Studio
                                             </div>
                                         <div className="col-2">
@@ -328,12 +328,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             Visual Studio
                                             </div>
                                         <div className="col-2">
@@ -348,12 +348,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             GitHub
                                             </div>
                                         <div className="col-2">
@@ -368,12 +368,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             Arduino
                                             </div>
                                         <div className="col-2">
@@ -388,12 +388,12 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="col-2">
+                                        <div className="col-3">
                                             AppServ
                                             </div>
                                         <div className="col-2">
@@ -408,7 +408,7 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-2">
                                             <div>&nbsp;</div>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="col-1">
                                             <div>&nbsp;</div>
                                         </div>
                                     </div>
