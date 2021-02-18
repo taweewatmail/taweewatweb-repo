@@ -16,7 +16,7 @@ class Landing extends Component {
                                     <div className="margin-5px">
                                         <div className="box-shadow">
                                             <div className="ccorners">
-                                                <h1>Welcome to my Wensite</h1>
+                                                <h1>Welcome to my Website</h1>
                                             </div>
                                         </div>
                                     </div>
