@@ -3,7 +3,8 @@ import PropTypes from "prop-types";
 //import styled from 'styled-components'
 //import "bootstrap/dist/css/bootstrap.min.css";
 import './Aboutme.css'
-
+import User from './Images/user.svg'
+import Obj from './Images/checklist.svg'
 class Disp_Facts_about_me extends React.Component {
     render() {
         const { name, height, weight, birthday, gender, phone, mail, isLoading } = this.props;
@@ -14,7 +15,14 @@ class Disp_Facts_about_me extends React.Component {
                     <div className="col-sm-6">
                         <div className="margin-5px">
                             <div className="headnoteblue">
-                                <h3>Personal Data</h3>
+                                <div className="row">
+                                    <div className="col-sm-3">
+                                        <img src={User} className="pic-user" alt="Person" />
+                                    </div>
+                                    <div className="col-sm-9">
+                                        <h3>Personal Data</h3>
+                                    </div>
+                                </div>
                             </div>
                             <div className="bodynote">
                                 <h5>
@@ -28,7 +36,14 @@ class Disp_Facts_about_me extends React.Component {
                         </div>
                         <div className="margin-5px">
                             <div className="headnoteblue">
-                                <h3>Carerr Object</h3>
+                                <div className="row">
+                                    <div className="col-sm-3">
+                                        <img src={Obj} className="pic-user" alt="Objects" />
+                                    </div>
+                                    <div className="col-sm-9">
+                                        <h3>Carerr Object</h3>
+                                    </div>
+                                </div>
                             </div>
                             <div className="bodynote">
                                 <h5>I want to develop my programming skill, learn more about programming language

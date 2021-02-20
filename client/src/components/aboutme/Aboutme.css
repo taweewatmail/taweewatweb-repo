@@ -54,23 +54,10 @@ body {
     color: #ffffff;
 }
 .margin-5px {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.headnoteyellow {
-    margin-top: 5px;
-    border-radius: 10px 10px 0px 0px;
-    background-color: #ffd800;
-    background-position: left top;
-    background-repeat: repeat;
-    width: 100%;
-    padding: 5px;
-    align-content: center;
-    box-shadow: 0 4px 8px 0 #1d1d1d, 0 6px 20px 0 #1d1d1d;
-    text-align: center;
-    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .headnoteblue {
     margin-top: 5px;
@@ -79,23 +66,10 @@ body {
     background-position: left top;
     background-repeat: repeat;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     align-content: center;
     box-shadow: 0 4px 8px 0 #1d1d1d, 0 6px 20px 0 #1d1d1d;
-    text-align: center;
-    color: #ffffff;
-}
-.headnotepurple {
-    margin-top: 5px;
-    border-radius: 10px 10px 0px 0px;
-    background-color: #dc03c4;
-    background-position: left top;
-    background-repeat: repeat;
-    width: 100%;
-    padding: 5px;
-    align-content: center;
-    box-shadow: 0 4px 8px 0 #1d1d1d, 0 6px 20px 0 #1d1d1d;
-    text-align: center;
+    text-align: left;
     color: #ffffff;
 }
 .bodynote {
@@ -105,7 +79,7 @@ body {
     background-position: left top;
     background-repeat: repeat;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     align-content: center;
     box-shadow: 0 4px 8px 0 #1d1d1d, 0 6px 20px 0 #1d1d1d;
     text-align: left;
@@ -123,4 +97,11 @@ body {
     background-position: left top;
     background-repeat: repeat;
     width: 100%;
+}
+.paddingcontrl{
+    padding: 0px;
+}
+.pic-user {
+    height: 10vmin;
+    pointer-events: none;
 }
