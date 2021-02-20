@@ -5,6 +5,9 @@ import PropTypes from "prop-types";
 import './Aboutme.css'
 import User from './Images/user.svg'
 import Obj from './Images/checklist.svg'
+import Platform from './Images/responsive-design.svg'
+import Skills from './Images/skills.svg'
+import Bar from './Images/loading.svg'
 class Disp_Facts_about_me extends React.Component {
     render() {
         const { name, height, weight, birthday, gender, phone, mail, isLoading } = this.props;
@@ -19,7 +22,7 @@ class Disp_Facts_about_me extends React.Component {
                                     <div className="col-sm-3">
                                         <img src={User} className="pic-user" alt="Person" />
                                     </div>
-                                    <div className="col-sm-9">
+                                    <div className="col-sm-9 txtalignleft">
                                         <h3>Personal Data</h3>
                                     </div>
                                 </div>
@@ -40,7 +43,7 @@ class Disp_Facts_about_me extends React.Component {
                                     <div className="col-sm-3">
                                         <img src={Obj} className="pic-user" alt="Objects" />
                                     </div>
-                                    <div className="col-sm-9">
+                                    <div className="col-sm-9 txtalignleft">
                                         <h3>Carerr Object</h3>
                                     </div>
                                 </div>
@@ -52,7 +55,14 @@ class Disp_Facts_about_me extends React.Component {
                         </div>
                         <div className="margin-5px">
                             <div className="headnoteblue">
-                                <h3>Developing Platform</h3>
+                                <div className="row">
+                                    <div className="col-sm-3">
+                                        <img src={Platform} className="pic-user" alt="Developing Platform" />
+                                    </div>
+                                    <div className="col-sm-9 txtalignleft">
+                                        <h3>Developing Platform</h3>
+                                    </div>
+                                </div>
                             </div>
                             <div className="bodynote">
                                 <h5>Web Application<br />
@@ -65,7 +75,14 @@ class Disp_Facts_about_me extends React.Component {
                     <div className="col-sm-6">
                         <div className="margin-5px">
                             <div className="headnoteblue">
-                                <h3>Programming Skills</h3>
+                                <div className="row">
+                                    <div className="col-sm-3">
+                                        <img src={Skills} className="pic-user" alt="Skills" />
+                                    </div>
+                                    <div className="col-sm-9 txtalignleft">
+                                        <h3>Programming Skills</h3>
+                                    </div>
+                                </div>
                             </div>
                             <div className="bodynote">
                                 <h5>
@@ -73,180 +90,118 @@ class Disp_Facts_about_me extends React.Component {
                                         <div className="col-3">
                                             Java
                                         </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Ex.</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             Foxpro
                                         </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Ex.</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             HTML
                                         </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Ex.</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             NodeJs
                                         </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             React
                                         </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             Express
                                         </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             XML
                                         </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             Python
                                         </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Fair</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             PHP
                                         </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Fair</h6>
                                         </div>
                                     </div>
                                 </h5>
@@ -261,61 +216,40 @@ class Disp_Facts_about_me extends React.Component {
                                     <div className="row">
                                         <div className="col-3">
                                             MongoDB
-                                            </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        </div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             Firebase
-                                            </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        </div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             MySQL
-                                            </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        </div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                 </h6>
@@ -330,101 +264,66 @@ class Disp_Facts_about_me extends React.Component {
                                     <div className="row">
                                         <div className="col-3">
                                             Android Studio
-                                            </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        </div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             Visual Studio
-                                            </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        </div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             GitHub
-                                            </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        </div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             Arduino
-                                            </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        </div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-3">
                                             AppServ
-                                            </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
+                                        </div>
+                                        <div className="col-7">
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
+                                            <img src={Bar} className="bar-level" />
                                         </div>
                                         <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div className="level">&nbsp;</div>
-                                        </div>
-                                        <div className="col-2">
-                                            <div>&nbsp;</div>
-                                        </div>
-                                        <div className="col-1">
-                                            <div>&nbsp;</div>
+                                            <h6>Good</h6>
                                         </div>
                                     </div>
                                 </h6>

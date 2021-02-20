@@ -69,7 +69,7 @@ body {
     padding: 10px;
     align-content: center;
     box-shadow: 0 4px 8px 0 #1d1d1d, 0 6px 20px 0 #1d1d1d;
-    text-align: left;
+    text-align: center;
     color: #ffffff;
 }
 .bodynote {
@@ -88,6 +88,9 @@ body {
 .centeralign {
     align-content: center;
 }
+.txtalignleft {
+    text-align: left;
+}
 .boxshadow {
     box-shadow: 0 4px 8px 0 #1d1d1d, 0 6px 20px 0 #1d1d1d;
 }
@@ -102,6 +105,10 @@ body {
     padding: 0px;
 }
 .pic-user {
+    height: 10vmin;
+    pointer-events: none;
+}
+.bar-level {
     height: 10vmin;
     pointer-events: none;
 }
