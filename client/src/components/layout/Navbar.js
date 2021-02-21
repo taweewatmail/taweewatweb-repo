@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Button } from "../Navbar/Button";
 import { MenuItems } from "../Navbar/MenuItems"
 import '../Navbar/Navbar.css'
+import '../aboutme/Aboutme.css';
+import menuIcon from '../aboutme/Images/menu.svg'
 class Navbar extends Component {
     state = { clicked: false }
     handdleClick = () => {
@@ -10,31 +12,32 @@ class Navbar extends Component {
     }
     render() {
         return (
-                <nav className="NavbarItems">
-
-                    <div className="row">
-                        <div className="col 3">
-                            <h1 className="Navbar-logo">Menu&nbsp;&nbsp;&nbsp;</h1>
-                        </div>
-                        <div className="col 9">
+            <nav className="NavbarItems">   
+                <div className="row">
+                    
+                    <h1 className="Navbar-logo">
+                        <div className="margin-20px">
+                            bom
+                            <img src={menuIcon} className="pic-menu" />
                             <div className="menu-icon" onClick={this.handdleClick}>
                                 <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                             </div>
-                        </div>
-                    </div>
-
-                    <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                        {MenuItems.map((item, index) => {
-                            return (
-                                <li key={index}>
-                                    <a className={item.cName} href={item.url}>
-                                        {item.title}
-                                    </a>
-                                </li>
-                            )
-                        })}
-                    </ul>
-                </nav>
+                            </div>
+                        </h1>
+                    
+                </div>
+                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                    {MenuItems.map((item, index) => {
+                        return (
+                            <li key={index}>
+                                <a className={item.cName} href={item.url}>
+                                    {item.title}
+                                </a>
+                            </li>
+                        )
+                    })}
+                </ul>
+            </nav>
         );
     }
 }

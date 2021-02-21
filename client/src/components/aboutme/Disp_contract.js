@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Aboutme.css'
+import Contacts from './Images/contacts.svg'
 class Disp_contract extends React.Component {
     render() {
         const {phone, mail, isLoading } = this.props;
@@ -13,7 +14,14 @@ class Disp_contract extends React.Component {
                         <div className="margin-5px">
                             <div className="box-shadow">
                                 <div className="headnoteblue">
-                                    <h3>Contract</h3>
+                                    <div className="row">
+                                        <div className="col-sm-3">
+                                            <img src={Contacts} className="pic-user" alt="Person" />
+                                        </div>
+                                        <div className="col-sm-9 txtalignleft">
+                                            <h3>Contact</h3>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="bodynote">
                                     <h5>

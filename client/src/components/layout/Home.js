@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Image, useImage } from 'react-render-image';
 import myPhoto from "../aboutme/Images/Photo_Taweewat.jpg";
 import '../aboutme/Aboutme.css';
+import Develop from '../aboutme/Images/seo.svg'
+import Platform from '../aboutme/Images/app-design.svg'
 class Landing extends Component {
     render() {
         return (
@@ -16,7 +18,17 @@ class Landing extends Component {
                                     <div className="margin-5px">
                                         <div className="box-shadow">
                                             <div className="ccorners">
-                                                <h1>Welcome to my Website</h1>
+                                                <div className="row">
+                                                    <div className="col-sm-3">
+                                                        <img src={Develop} className="pic-user" />
+                                                    </div>
+                                                    <div className="col-sm-6">
+                                                        <h1>Welcome to my website</h1>
+                                                    </div>
+                                                    <div className="col-sm-3">
+                                                        <img src={Platform} className="pic-user" />
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

@@ -8,6 +8,8 @@ import Obj from './Images/checklist.svg'
 import Platform from './Images/responsive-design.svg'
 import Skills from './Images/skills.svg'
 import Bar from './Images/loading.svg'
+import Database from './Images/server.svg'
+import Tools from './Images/tools.svg'
 class Disp_Facts_about_me extends React.Component {
     render() {
         const { name, height, weight, birthday, gender, phone, mail, isLoading } = this.props;
@@ -209,7 +211,14 @@ class Disp_Facts_about_me extends React.Component {
                         </div>
                         <div className="margin-5px">
                             <div className="headnoteblue">
-                                <h3>Database Skills</h3>
+                                <div className="row">
+                                    <div className="col-sm-3">
+                                        <img src={Database} className="pic-user" alt="Database Skills" />
+                                    </div>
+                                    <div className="col-sm-9 txtalignleft">
+                                        <h3>Database Skills</h3>
+                                    </div>
+                                </div>
                             </div>
                             <div className="bodynote">
                                 <h6>
@@ -257,7 +266,14 @@ class Disp_Facts_about_me extends React.Component {
                         </div>
                         <div className="margin-5px">
                             <div className="headnoteblue">
-                                <h3>Tools Skills</h3>
+                                <div className="row">
+                                    <div className="col-sm-3">
+                                        <img src={Tools} className="pic-user" alt="Tools Skills" />
+                                    </div>
+                                    <div className="col-sm-9 txtalignleft">
+                                        <h3>Tools Skills</h3>
+                                    </div>
+                                </div>
                             </div>
                             <div className="bodynote">
                                 <h6>
